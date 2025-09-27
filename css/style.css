@@ -9,6 +9,7 @@
     padding: 0;
     margin: 0;
 }
+
 body {
     font-family: 'Lato', sans-serif;
     color: #333;
@@ -24,7 +25,8 @@ a {
     color: #333;
 }
 
-h1, h2{ 
+h1,
+h2 {
     font-weight: 300;
     line-height: 1.2;
     margin: 10px 0;
@@ -49,17 +51,17 @@ img {
     justify-content: space-between;
 }
 
-.navbar ul{
+.navbar ul {
     display: flex;
 }
 
-.navbar a{
+.navbar a {
     color: #fff;
     padding: 10px;
     margin: 0 5px;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     border-bottom: 2px #fff solid;
 }
 
@@ -71,15 +73,15 @@ img {
     position: relative;
 }
 
-.showcase h1{
+.showcase h1 {
     font-size: 40px;
 }
 
-.showcase p{
+.showcase p {
     margin: 20px 0;
 }
 
-.showcase .grid{
+.showcase .grid {
     overflow: visible;
     grid-template-columns: 55% 45%;
     gap: 30px;
@@ -92,15 +94,16 @@ img {
     width: 400px;
     padding: 40px;
     z-index: 100;
-    justify-self: flex-end; /* added later */
+    justify-self: flex-end;
+    /* added later */
 }
 
-.showcase-form .form-control{
+.showcase-form .form-control {
     margin: 30px 0;
 }
 
 .showcase-form input[type='text'],
-.showcase-form input[type='email']{
+.showcase-form input[type='email'] {
     border: 0;
     border-bottom: 1px solid #b4becd;
     width: 100%;
@@ -108,7 +111,7 @@ img {
     font-size: 16px;
 }
 
-.showcase-form input:focus{
+.showcase-form input:focus {
     outline: none;
 }
 
@@ -129,7 +132,15 @@ img {
     margin: 10px;
 }
 
-
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
 
 .flex {
     display: flex;
